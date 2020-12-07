@@ -110,10 +110,10 @@ ul {
          
                            
 
-    <th>Fecha</th>
+    <th>Data</th>
       <th>Total</th>
 
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                            
 
 
@@ -169,7 +169,7 @@ $id_pedido=$row['id_pedido'];
                     
                       ?>
 
-<a class="btn btn-danger btn-print" href="<?php  echo "../boletas_ventas/generar_boleta.php?id_pedido=$id_pedido";?>"  target="_blank"  role="button">Factura</a>
+<a class="btn btn-danger btn-print" href="<?php  echo "../boletas_ventas/generar_boleta.php?id_pedido=$id_pedido";?>"  target="_blank"  role="button">Fatura</a>
 
       <?php
                       

@@ -83,7 +83,7 @@ $cid=$_SESSION['id'];
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> MODIFICAR PASSWORD</h3>
+                  <h3 class="box-title"> EDITAR SENHA </h3>
                 </div><!-- /.box-header -->
               
    
@@ -105,7 +105,7 @@ $cid=$_SESSION['id'];
    <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Contraseña</label>
+                        <label for="date" >SENHA</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -122,7 +122,7 @@ $cid=$_SESSION['id'];
  <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Repita contraseña</label>
+                        <label for="date" >REPITA A SENHA</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -136,7 +136,7 @@ $cid=$_SESSION['id'];
                     </div>
                     </div>     
           
-    <button type="submit" class="btn btn-primary">GUARDAR</button>          
+    <button type="submit" class="btn btn-primary">SALVAR</button>          
   
                    
             <br><br><br><hr>
@@ -171,7 +171,7 @@ $cid=$_SESSION['id'];
         <!-- footer content -->
        <footer>
           <div class="pull-right">
-       <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+            <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>

@@ -91,10 +91,10 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> MODIFICAR MEDICINA</h3>
+                  <h3 class="box-title"> MODIFICAR </h3>
                 </div><!-- /.box-header -->
               
-              <a class="btn btn-warning btn-print" href="medicina.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+              <a class="btn btn-warning btn-print" href="medicina.php"    style="height:25%; width:15%; font-size: 12px " role="button">Voltar</a>
 
                 <div class="box-body">
                 
@@ -118,7 +118,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >IMAGEN ANTIGUA</label>
+                        <label for="date" >IMAGEN ANTIGA</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -135,7 +135,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >IMAGEN NUEVA</label>
+                        <label for="date" >IMAGEN NOVA</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -152,7 +152,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Nombre</label>
+                        <label for="date" >Nome</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -171,7 +171,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Descripcion</label>
+                        <label for="date" >Descrição</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -193,7 +193,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Unidad</label>
+                        <label for="date" >Quantidade</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -210,7 +210,7 @@ ul {
         <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Precio compra</label>
+                        <label for="date" >Preço de compra</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -228,7 +228,7 @@ ul {
            <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Precio venta</label>
+                        <label for="date" >Preço de venda</label>
                  
                       </div><!-- /.form group -->
                     </div>

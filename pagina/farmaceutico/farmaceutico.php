@@ -58,8 +58,8 @@ ul {
                   <h3 class="box-title"> </h3>
 
                 </div><!-- /.box-header -->
-                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Impresión</a>
-                <a class="btn btn-warning btn-print" href="farmaceutico_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">REGISTRAR</a>
+                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Imprimir</a>
+                <a class="btn btn-warning btn-print" href="farmaceutico_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">REGISTRAR NOVO</a>
 
 
                 
@@ -102,7 +102,7 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> LISTA FARMACEUTICO</h3>
+                  <h3 class="box-title"> LISTA FARMACEUTICOS </h3>
                 </div><!-- /.box-header -->
               
 
@@ -115,14 +115,14 @@ ul {
 
                     <th>#</th>
                         <th>Foto</th>
-                        <th>Nombre y apellidos</th>
-                        <th>Telefono</th>
+                        <th>Nome e sobre nome</th>
+                        <th>Telefone</th>
                         <th>Usuario</th>
     
-                             <th>Correo</th>
+                             <th>CEP</th>
      
 
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                       </tr>
                     </thead>
                     <tbody>
@@ -189,7 +189,7 @@ ul {
         <!-- footer content -->
        <footer>
           <div class="pull-right">
-                             <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                             <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>

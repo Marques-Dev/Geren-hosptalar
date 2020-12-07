@@ -28,7 +28,7 @@ $id=$_SESSION['id'];
                     <ul class="nav child_menu">
  
 <li><a href="../medico/medico.php">Medico</a></li>
-<li><a href="../medico/medico_historial.php">Historial  Medico</a></li>
+<li><a href="../medico/medico_historial.php">Historico  Medico</a></li>
 
 
 
@@ -45,11 +45,11 @@ $id=$_SESSION['id'];
                         if ($tipo=="administrador" or $tipo=="recepcionista" or $tipo=="medico") {
                     
                       ?>
-                                  <li><a><i class="fa fa-database"></i> Programar<span class="fa fa-chevron-down"></span></a>
+                                  <li><a><i class="fa fa-database"></i> Programação<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
             
 <li><a href="../programar/horario_medico.php">Programar</a></li>
-<li><a href="../programar/vacaciones.php">Vacaciones</a></li>
+<li><a href="../programar/vacaciones.php">Ferias</a></li>
 
 
 
@@ -59,21 +59,24 @@ $id=$_SESSION['id'];
                     <?php
                       }
                       ?>
+
                  <?php
                         if ($tipo=="administrador" or $tipo=="recepcionista") {
                     
                       ?>
 
-                                  <li><a><i class="fa fa-database"></i> Actividades financieras<span class="fa fa-chevron-down"></span></a>
+                              
+    <li><a><i class="fa fa-database"></i> Financeiro<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-             
-<li><a href="../actividades_financieras/pagos.php">Pagos</a></li>
-<li><a href="../actividades_financieras/pago_agregar.php">Agregar pago</a></li>
-<li><a href="../procedimiento_pago/procedimiento_pago.php">Procedimiento de pago</a></li>
-<li><a href="../gastos/gastos.php">Gastos</a></li>
-<li><a href="../gastos/gastos_agregar.php">Agregar gastos</a></li>
-<li><a href="../gastos/gastos_categoria.php">Categoria gastos</a></li>
 
+             
+<li><a href="../actividades_financieras/pagos.php">Contas</a></li>
+<li><a href="../actividades_financieras/pago_agregar.php">Adicionar conta</a></li>
+<li><a href="../procedimiento_pago/procedimiento_pago.php">Procedimento de contas</a></li>
+<li><a href="../gastos/gastos.php">Gastos</a></li>
+<li><a href="../gastos/gastos_agregar.php">Adicionar gastos</a></li>
+<li><a href="../gastos/gastos_categoria.php">Categoria gastos</a></li>
+            
 
 
 
@@ -106,12 +109,12 @@ $id=$_SESSION['id'];
                         if ($tipo=="administrador" or $tipo=="recepcionista" or $tipo=="medico") {
                     
                       ?>
-                 <li><a><i class="fa fa-database"></i> Citas<span class="fa fa-chevron-down"></span></a>
+                 <li><a><i class="fa fa-database"></i> Receitas<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
         
-<li><a href="../cita/cita.php">Lista de citas</a></li>
-<li><a href="../cita/cita_agregar.php">Agregar</a></li>
-<li><a href="../cita/cita_hoy.php">Hoy</a></li>
+<li><a href="../cita/cita.php">Lista de receitas</a></li>
+<li><a href="../cita/cita_agregar.php">Adicionar</a></li>
+<li><a href="../cita/cita_hoy.php">Todas as Receitas</a></li>
 
 
 
@@ -127,11 +130,11 @@ $id=$_SESSION['id'];
                         if ($tipo=="administrador" or $tipo=="farmaceutico") {
                     
                       ?>
-                   <li><a><i class="fa fa-database"></i> Medicinas<span class="fa fa-chevron-down"></span></a>
+                   <li><a><i class="fa fa-database"></i> Medicamentos<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                 
-<li><a href="../medicina/medicina.php">Lista de medicina</a></li>
-<li><a href="../medicina/medicina_agregar.php">Agragar medidicna</a></li>
+<li><a href="../medicina/medicina.php">Lista de medicamentos</a></li>
+<li><a href="../medicina/medicina_agregar.php">Adicionar medicamento </a></li>
 
 
 
@@ -152,12 +155,12 @@ $id=$_SESSION['id'];
                <li><a><i class="fa fa-database"></i> Farmacia<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                  
-<li><a href="../farmacia/pagos.php">Lista de ventas</a></li>
-<li><a href="../farmacia/pago_agregar.php">Agragar farmacia</a></li>
+<li><a href="../farmacia/pagos.php">Lista de vendas</a></li>
+<li><a href="../farmacia/pago_agregar.php">Adicionar farmacia</a></li>
 <li><a href="../gastos_farmacia/gastos_farmacia.php">Gastos</a></li>
-  <li><a href="../gastos_farmacia/categoria.php">Gastos categoria</a></li>
+  <li><a href="../gastos_farmacia/categoria.php">Gastos por categoria</a></li>
 
-  <li><a href="../farmacia/reportes_pagos.php">Pagos</a></li>
+  <li><a href="../farmacia/reportes_pagos.php">Contas</a></li>
 
 
 
@@ -175,7 +178,7 @@ $id=$_SESSION['id'];
                     
                       ?>
  
-       <li><a href = "../preescripcion/preescripcion.php"><i class="fa fa-archive"></i> Preescripcion<span class="fa fa-chevron-right"></span></a>
+       <li><a href = "../preescripcion/preescripcion.php"><i class="fa fa-archive"></i> Prescrições<span class="fa fa-chevron-right"></span></a>
 
 
              <?php
@@ -191,11 +194,11 @@ $id=$_SESSION['id'];
                     
                       ?>
  
-       <li><a href = "../cita/cita_paciente.php"><i class="fa fa-archive"></i> cita paciente<span class="fa fa-chevron-right"></span></a>
-       <li><a href = "../preescripcion/preescripcion_paciente.php"><i class="fa fa-archive"></i> preescripcion paciente<span class="fa fa-chevron-right"></span></a>
+       <li><a href = "../cita/cita_paciente.php"><i class="fa fa-archive"></i> Receitas de paciente<span class="fa fa-chevron-right"></span></a>
+       <li><a href = "../preescripcion/preescripcion_paciente.php"><i class="fa fa-archive"></i> Prescrições de paciente<span class="fa fa-chevron-right"></span></a>
 
-           <li><a href = "../actividades_financieras/pagos_paciente.php"><i class="fa fa-archive"></i> Pagos atencion<span class="fa fa-chevron-right"></span></a>
-           <li><a href = "../farmacia/pagos_farmacia_paciente.php"><i class="fa fa-archive"></i> Pagos farmacia<span class="fa fa-chevron-right"></span></a>
+           <li><a href = "../actividades_financieras/pagos_paciente.php"><i class="fa fa-archive"></i> Contas atenção<span class="fa fa-chevron-right"></span></a>
+           <li><a href = "../farmacia/pagos_farmacia_paciente.php"><i class="fa fa-archive"></i> Contas farmacia<span class="fa fa-chevron-right"></span></a>
              <?php
                       }
                       ?>    
@@ -225,9 +228,9 @@ $id=$_SESSION['id'];
                     <ul class="nav child_menu">
 
    <li><a href="../medico/medico.php">Medico</a></li>
-        <li><a href="../farmaceutico/farmaceutico.php">farmaceutico</a></li>
+        <li><a href="../farmaceutico/farmaceutico.php">Farmaceutico</a></li>
 
- <li><a href="../recepcionista/recepcionista.php">recepcionista</a></li>
+ <li><a href="../recepcionista/recepcionista.php">Recepcionista</a></li>
 
                        
 
@@ -243,7 +246,7 @@ $id=$_SESSION['id'];
 
 
 
-                 <li><a><i class="fa fa-gear"></i> Configuracion<span class="fa fa-chevron-down"></span></a>
+                 <li><a><i class="fa fa-gear"></i> Configurações <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                        <?php
                       if ($tipo=="administrador" ) {
@@ -255,18 +258,21 @@ $id=$_SESSION['id'];
                       ?>
 
     
-                        <li><a href="../otros/editar_password.php">Editar password</a></li>  
+                        <li><a href="../otros/editar_password.php">Editar senha</a></li>  
      
                     </ul>
-                  </li>
+
+                    
+                 <!-- </li>
 
 
                              <?php
                       if ($tipo=="administrador" ) {
                     
                       ?>
+                      
 
-                     <li><a><i class="fa fa-database"></i> Base de datos<span class="fa fa-chevron-down"></span></a>
+                     <li><a><i class="fa fa-database"></i> Base de datos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
 
                       <li><a href="../otros/vaciar_bd.php" onClick="return confirm('¿Está seguro de que quieres vaciar la base de datos ??');">Vaciar base de datos</a></li>
@@ -277,7 +283,8 @@ $id=$_SESSION['id'];
                   </li>
              <?php
                       }
-                      ?>
+
+                      ?> --->
 
 
                    

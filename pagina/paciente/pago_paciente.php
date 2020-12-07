@@ -97,11 +97,11 @@ $simbolo_moneda="";
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> AGREGAR PAGO</h3>
+                  <h3 class="box-title"> ADICIONAR CONTA</h3>
                 </div><!-- /.box-header -->
-                 <a class="btn btn-primary btn-print" href="../pos_medicina/<?php  echo "pos_medicina.php?cid=$cid";?>"    style="height:25%; width:15%; font-size: 12px " role="button">Agregar</a>   
+                 <a class="btn btn-primary btn-print" href="../pos_medicina/<?php  echo "pos_medicina.php?cid=$cid";?>"    style="height:25%; width:15%; font-size: 12px " role="button">Adcionar</a>   
       <br>           
-              <a class="btn btn-warning btn-print" href="../paciente/paciente.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+              <a class="btn btn-warning btn-print" href="../paciente/paciente.php"    style="height:25%; width:15%; font-size: 12px " role="button">Voltar</a>
 <br>
 
 
@@ -209,8 +209,8 @@ $id_pedido=$row['id_pedido'];
                     
                       ?>
 
-<a class="btn btn-danger btn-print" href="<?php  echo "../boletas_ventas/generar_boleta.php?id_pedido=$id_pedido";?>"  target="_blank"  role="button">Factura</a>
-<a class="btn btn-primary btn-print" href="<?php  echo "../paciente/eliminar_cita.php?id_cita=$cid";?>"  onClick="return confirm('¿Está seguro de que quieres eliminar??');"  role="button">Eliminar</a>
+<a class="btn btn-danger btn-print" href="<?php  echo "../boletas_ventas/generar_boleta.php?id_pedido=$id_pedido";?>"  target="_blank"  role="button">Fatura</a>
+<a class="btn btn-primary btn-print" href="<?php  echo "../paciente/eliminar_cita.php?id_cita=$cid";?>"  onClick="return confirm('¿Está seguro de que quieres eliminar??');"  role="button">Deletar</a>
       <?php
                       
                       ?>
@@ -254,7 +254,8 @@ $id_pedido=$row['id_pedido'];
         <!-- footer content -->
          <footer>
           <div class="pull-right">
-                 <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                  <a href="https://github.com/Marques-Dev">Marques - Dev</a>
+          </div>
           </div>
           <div class="clearfix"></div>
         </footer>

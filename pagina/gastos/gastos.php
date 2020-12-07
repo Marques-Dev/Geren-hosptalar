@@ -58,7 +58,7 @@ ul {
                   <h3 class="box-title"> </h3>
 
                 </div><!-- /.box-header -->
-                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Impresión</a>
+                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Imprimir</a>
                 <a class="btn btn-warning btn-print" href="gastos_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">REGISTRAR</a>
 
 
@@ -102,7 +102,7 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> LISTA GASTOS</h3>
+                  <h3 class="box-title"> LISTA DE GASTOS</h3>
                 </div><!-- /.box-header -->
               
 
@@ -117,10 +117,10 @@ ul {
                
                         <th>Nota</th>
                     <th>Categoria gastos</th>
-                    <th>Cantidad</th>
-     <th>Fecha </th>
+                    <th>Quantidade</th>
+     <th>Data </th>
 
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                       </tr>
                     </thead>
                     <tbody>
@@ -149,7 +149,7 @@ ul {
 
 
 <a class="btn btn-danger btn-print" href="<?php  echo "editar_gastos.php?id_gastos=$id_gastos";?>"  role="button">Editar</a>
-  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_gastos.php?id_gastos=$id_gastos";?>" onClick="return confirm('¿Está seguro de que quieres eliminar gastos??');"><i class="glyphicon glyphicon-remove" ></i></a>
+  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_gastos.php?id_gastos=$id_gastos";?>" onClick="return confirm('Tem certeza que deseja deletar?');"><i class="glyphicon glyphicon-remove" ></i></a>
              <?php
             //          }
                       ?>

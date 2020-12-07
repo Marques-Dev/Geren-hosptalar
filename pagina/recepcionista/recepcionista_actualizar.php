@@ -33,20 +33,20 @@ $target_dir = "../usuario/subir_us/";
 		echo "archivo es una imagen - ". $check["mime"]. ".";
 		$uploadok = 1;
 	}else{
-		echo "el archivo no es una imagen.";
+		echo "o arquivo noa e uma imagem.";
 		$uploadok=0;
 	}
 	
 	
 	//check if file already exists
 	if(file_exists($target_file)){
-		echo "lo siento, el archivo ya existe.";
+		echo "o arquivo ja existe.";
 		$uploadok=0;
 	}
 	
 	//check file size
 	if($_FILES["imagen"]["size"]>500000){
-		echo "lo siento, tu archivo es demasiado grande.";
+		echo "o arquivo e muito grande";
 		$uploadok=0;
 	}
 	

@@ -21,7 +21,7 @@
     <!-- meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="sistema de parqueamiento, parqueo,codigo fuente parqueo, sistema de parqueamiento con codigo fuente"
+    
     />
     <!-- /meta tags -->
     <!-- custom style sheet -->

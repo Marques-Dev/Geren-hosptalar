@@ -161,7 +161,7 @@ $num=1;
 echo $num;
 ?>
       </h4>
-              <p>Configuracion empresa</p>
+              <p>Configurações</p>
             </div>
             <div class="icon"><img height="80" width="80" src="img/setting.png">
               <i class=""></i>
@@ -239,7 +239,7 @@ $num=0;
 echo $num;
 ?>
       </h4>
-              <p>Mis citas</p>
+              <p>Minhas receitas</p>
             </div>
             <div class="icon"><img height="80" width="80" src="img/documentos.png">
               <i class=""></i>
@@ -273,7 +273,7 @@ $num=0;
 echo $num;
 ?>
       </h4>
-              <p> Cita</p>
+              <p> Receitas </p>
             </div>
             <div class="icon"><img height="80" width="80" src="img/documentos.png">
               <i class=""></i>
@@ -336,7 +336,7 @@ $num=0;
 echo $num;
 ?>
       </h4>
-              <p> Preescripcion</p>
+              <p> Prescrições </p>
             </div>
             <div class="icon"><img height="80" width="80" src="img/tareas.png">
               <i class=""></i>
@@ -382,7 +382,7 @@ $num=0;
 echo $num;
 ?>
       </h4>
-              <p> Histaria de caso</p>
+              <p> Historico</p>
             </div>
             <div class="icon"><img height="80" width="80" src="img/documentos.png">
               <i class=""></i>
@@ -424,7 +424,7 @@ $num=0;
 echo $num;
 ?>
       </h4>
-              <p>Pago factura</p>
+              <p>Pagamentos</p>
             </div>
             <div class="icon"><img height="80" width="80" src="img/ass.png">
               <i class=""></i>

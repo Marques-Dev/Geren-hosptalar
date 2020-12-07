@@ -17,17 +17,17 @@ $id_procedimiento_pago = $_POST["id_procedimiento_pago"];
 $sentencia = $base_de_datos->prepare("SELECT * FROM procedimiento_pago  WHERE id_procedimiento_pago = ? LIMIT 1;");
 $sentencia->execute([$id_procedimiento_pago]);
 $producto1 = $sentencia->fetch(PDO::FETCH_OBJ);
-# Si no existe, salimos y lo indicamos
+# Se ele não existe, nós saímos e criamos
 if (!$producto1) {
 
       echo "<script>document.location='../actividades_financieras/pago_agregar.php?status=4'</script>";
 //    header("Location: ../pos.php?status=4");
     exit;
 }
-# Si no hay existencia...
+# se nao existir uma sessao
 
 session_start();
-# Buscar producto dentro del cartito
+# buscando produto
 $indice = false;
 for ($i = 0; $i < count($_SESSION["carrito_actividad"]); $i++) {
     if ($_SESSION["carrito_actividad"][$i]->id_procedimiento_pago === $id_procedimiento_pago) {
@@ -35,7 +35,7 @@ for ($i = 0; $i < count($_SESSION["carrito_actividad"]); $i++) {
         break;
     }
 }
-# Si no existe, lo agregamos como nuevo
+# se nao existir agrgamos um novo
 if ($indice === false) {
     $producto1->cantidad = $cantidad;
     $producto1->total = $producto1->precio_venta*$cantidad;

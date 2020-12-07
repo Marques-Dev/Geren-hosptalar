@@ -88,7 +88,7 @@ ul {
 
    <div class="col-md-12 btn-print">
                       <div class="form-group">
-                        <label for="date" class="col-sm-3 control-label">Descripcion</label>
+                        <label for="date" class="col-sm-3 control-label">Descrição</label>
                         <div class="input-group col-sm-8">
                           <input type="text" class="form-control pull-right" id="descripcion" name="descripcion" required >
                         </div><!-- /.input group -->
@@ -101,8 +101,8 @@ ul {
 
                     <div class="col-md-12">
                        <div class="col-md-12">
-                        <button class="btn btn-lg btn-primary btn-print" id="daterange-btn"  name="">Agregar</button>
-                          <button type="button" class="btn btn-danger" data-dismiss="modal">CERRAR</button>
+                        <button class="btn btn-lg btn-primary btn-print" id="daterange-btn"  name="">Adicionar</button>
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Encerrar</button>
                          </div>
 
                     </div>
@@ -157,9 +157,9 @@ ul {
                         
                           
 
-                          <th> descripcion</th>
+                          <th> Descrição </th>
        
-                       <th class="btn-print"> Accion </th>
+                       <th class="btn-print"> Ação </th>
 
                       </tr>
                     </thead>
@@ -184,7 +184,7 @@ $id_categoria=$row['id_categoria'];
                     //  if ($eliminar=="si") {
                     
                       ?>
-   <a class="small-box-footer btn-print"  href="<?php  echo "../gastos/eliminar_categoria.php?id_categoria=$id_categoria";?>" onClick="return confirm('¿Está seguro de que quieres eliminar Categoria gastos??');"><i class="glyphicon glyphicon-remove"></i></a>
+   <a class="small-box-footer btn-print"  href="<?php  echo "../gastos/eliminar_categoria.php?id_categoria=$id_categoria";?>" onClick="return confirm('Tem certeza que deseja deletar?');"><i class="glyphicon glyphicon-remove"></i></a>
    <?php
                   //    }
                       ?>
@@ -205,7 +205,7 @@ $id_categoria=$row['id_categoria'];
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">×</span></button>
-                <h4 class="modal-title">ACCION CATEGORIA</h4>
+                <h4 class="modal-title">AÇÃO CATEGORIA</h4>
               </div>
               <div class="modal-body">
         <form class="form-horizontal" method="post" action="categoria_update.php" enctype='multipart/form-data'>
@@ -216,7 +216,7 @@ $id_categoria=$row['id_categoria'];
           </div>
         </div>
                <div class="form-group">
-          <label class="control-label col-lg-3" for="price">descripcion</label><br>
+          <label class="control-label col-lg-3" for="price">Descrição</label><br>
           <div class="col-lg-9">
             <input type="text" class="form-control" id="price" name="descripcion" value="<?php echo $row['descripcion'];?>"   required>
           </div>
@@ -224,8 +224,8 @@ $id_categoria=$row['id_categoria'];
 
  
               <div class="modal-footer">
-    <button type="submit" class="btn btn-primary">GUARDAR</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Encerrar</button>
               </div>
         </form>
             </div>
@@ -289,7 +289,8 @@ function Buscar() {
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-                   <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                    <a href="https://github.com/Marques-Dev">Marques - Dev</a>
+          </div>
           </div>
           <div class="clearfix"></div>
         </footer>

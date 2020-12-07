@@ -1,7 +1,7 @@
  <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="https://ventas.programacionparacompartir.com/" class="site_title"><i class="fa fa-cog"></i> <span>Administracion</span></a>
+              <a href="https://github.com/Marques-Dev" class="site_title"><i class="fa fa-cog"></i> <span>Administração</span></a>
             </div>
 
             <div class="clearfix"></div>

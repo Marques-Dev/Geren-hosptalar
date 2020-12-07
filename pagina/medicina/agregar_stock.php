@@ -91,10 +91,10 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> AGREGAR STOCK PRODUCTO</h3>
+                  <h3 class="box-title"> ADICIONAR PRODUTO</h3>
                 </div><!-- /.box-header -->
               
-              <a class="btn btn-warning btn-print" href="medicina.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+              <a class="btn btn-warning btn-print" href="medicina.php"    style="height:25%; width:15%; font-size: 12px " role="button">Voltar</a>
 
                 <div class="box-body">
                 
@@ -122,7 +122,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Nombre producto</label>
+                        <label for="date" >Nome do produto</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -141,7 +141,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Cantidad</label>
+                        <label for="date" >Quantidade</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -195,7 +195,8 @@ ul {
         <!-- footer content -->
      <footer>
           <div class="pull-right">
-                      <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                       <a href="https://github.com/Marques-Dev">Marques - Dev</a>
+          </div>
           </div>
           <div class="clearfix"></div>
         </footer>

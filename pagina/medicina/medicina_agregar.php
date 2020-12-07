@@ -55,10 +55,10 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> MEDICINA PRODUCTO </h3>
+                  <h3 class="box-title"> MEDICAMENTOS </h3>
 
                 </div><!-- /.box-header -->
-                <a class="btn btn-warning btn-print" href="medicina.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+                <a class="btn btn-warning btn-print" href="medicina.php"    style="height:25%; width:15%; font-size: 12px " role="button">Voltar</a>
                 
 
 
@@ -90,7 +90,7 @@ ul {
                    <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Imagen</label>
+                        <label for="date" >Imagem</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -107,7 +107,7 @@ ul {
                    <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Nombre</label>
+                        <label for="date" >Nome</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -125,7 +125,7 @@ ul {
                           <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Descripcion</label>
+                        <label for="date" >DEscrição</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -145,7 +145,7 @@ ul {
                    <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Unidad</label>
+                        <label for="date" >Quantidades</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -162,7 +162,7 @@ ul {
            <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Precio Compra</label>
+                        <label for="date" >Preço de compra</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -179,7 +179,7 @@ ul {
            <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Precio venta</label>
+                        <label for="date" >Preço de venda</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -197,7 +197,7 @@ ul {
                                <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Stock incial</label>
+                        <label for="date" >Quantidade em estoque</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -213,7 +213,7 @@ ul {
                     </div>
 
                  
-    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    <button type="submit" class="btn btn-primary">Salvar dados</button>
 
 
               <div class="modal-footer">
@@ -249,7 +249,8 @@ ul {
         <!-- footer content -->
     <footer>
           <div class="pull-right">
-                         <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                          <a href="https://github.com/Marques-Dev">Marques - Dev</a>
+          </div>
           </div>
           <div class="clearfix"></div>
         </footer>

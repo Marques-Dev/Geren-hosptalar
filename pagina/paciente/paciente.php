@@ -150,7 +150,7 @@ ul {
  <a class="btn btn-success btn-print" href="<?php  echo "historial_paciente.php?cid=$cid";?>"  role="button">Historico</a>
   <a class="btn btn-primary btn-print" href="<?php  echo "pago_paciente.php?cid=$cid";?>"  role="button">Pagou</a>
 
-  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_paciente.php?cid=$cid";?>" onClick="return confirm('¿Está seguro de que quieres eliminar usuario??');"><i class="glyphicon glyphicon-remove" ></i></a>
+  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_paciente.php?cid=$cid";?>" onClick="return confirm('Tem certeza que quer apagar esse paciente?');"><i class="glyphicon glyphicon-remove" ></i></a>
     
 
              <?php

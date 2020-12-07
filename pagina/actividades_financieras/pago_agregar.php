@@ -44,17 +44,17 @@ $(document).ready(function() {
             url: "ajax.php",
             data: dataString,
             success: function(data) {
-                //Escribimos las sugerencias que nos manda la consulta
+                //Sugestoes baseadas nas pesquisas
                 $('#suggestions').fadeIn(1000).html(data);
-                //Al hacer click en algua de las sugerencias
+                //Clicando nas possiveis sujestoes baseadas no que digitou
                 $('.suggest-element').on('click', function(){
-                        //Obtenemos la id unica de la sugerencia pulsada
+                        //Caso digite todo nome ira aparecer somente ele
                         var id = $(this).attr('id');
                      
                            var idlcliente      = $(this).attr('id').substring(7,10).match(/\d+/); 
-                        //Editamos el valor del input con data de la sugerencia pulsada
+                        //editando o valor do input baseado na data
                         $('#key').val($('#'+id).attr('data'));
-                        //Hacemos desaparecer el resto de sugerencias
+                        
                         $('#suggestions').fadeOut(1000);
                         alert('Has seleccionado a '+' '+$('#'+id).attr('data'));
  document.f1.cliente.value = idlcliente;
@@ -143,7 +143,7 @@ $impuTotal = 0;
         if($_GET["status"] === "1"){
           ?>
             <div class="alert alert-success">
-              <strong>¡Correcto!</strong> Venta realizada correctamente
+              <strong>¡Correcto!</strong> Venda realizada com sucesso
             </div>
           <?php
         }else if($_GET["status"] === "2"){
@@ -155,25 +155,25 @@ $impuTotal = 0;
         }else if($_GET["status"] === "3"){
           ?>
           <div class="alert alert-info">
-              <strong>Ok</strong> Producto quitado de la lista
+              <strong>Ok</strong> Produto quitado
             </div>
           <?php
         }else if($_GET["status"] === "4"){
           ?>
           <div class="alert alert-warning">
-              <strong>Error:</strong> El producto que buscas no existe
+              <strong>Error:</strong> O produto pesquisado nao exite
             </div>
           <?php
         }else if($_GET["status"] === "5"){
           ?>
           <div class="alert alert-danger">
-              <strong>Error: </strong>El producto está agotado
+              <strong>Error: </strong>o produto esta esgotado
             </div>
           <?php
         }else{
           ?>
           <div class="alert alert-danger">
-              <strong>Error:</strong> Algo salió mal mientras se realizaba la venta
+              <strong>Error:</strong> Algo deu errado enquanto a venda estava acontecendo
             </div>
           <?php
         }
@@ -203,9 +203,9 @@ $impuTotal = 0;
         <tr>
 
  
-          <th>Descripción</th>
-          <th>Precio de venta</th>
-          <th>Cantidad</th>
+          <th>Descrição</th>
+          <th>Preço de venda</th>
+          <th>Quantidade</th>
           <th>Total</th>
           <th></th>
         </tr>

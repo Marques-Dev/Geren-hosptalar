@@ -58,7 +58,7 @@ ul {
                   <h3 class="box-title"> </h3>
 
                 </div><!-- /.box-header -->
-                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Impresión</a>
+                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Imprimir</a>
                 <a class="btn btn-warning btn-print" href="procedimiento_pago_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">REGISTRAR</a>
 
 
@@ -102,7 +102,7 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> LISTA PROCEDIMIENTOS DE PAGO</h3>
+                  <h3 class="box-title"> LISTA PROCEDIMIENTOS</h3>
                 </div><!-- /.box-header -->
               
 
@@ -115,13 +115,13 @@ ul {
 
       
              
-                        <th>nombre</th>
-                     <th>descripcion</th>
+                        <th>Nome</th>
+                     <th>Descrição</th>
              
-                          <th>precio venta</th>
+                          <th>Preço de venda</th>
 
 
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                       </tr>
                     </thead>
                     <tbody>
@@ -148,7 +148,7 @@ ul {
                    
                     
                       ?>
-  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_procedimiento_pago.php?id_pro=$id_pro";?>" onClick="return confirm('¿Está seguro de que quieres eliminar procedimiento de pago??');"><i class="glyphicon glyphicon-remove" ></i></a>
+  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_procedimiento_pago.php?id_pro=$id_pro";?>" onClick="return confirm('Tem certeza que deseja apagar?');"><i class="glyphicon glyphicon-remove" ></i></a>
     
 <a class="btn btn-danger btn-print" href="<?php  echo "editar_procedimiento_pago.php?id_pro=$id_pro";?>"  role="button">Editar</a>
 
@@ -186,7 +186,8 @@ ul {
         <!-- footer content -->
     <footer>
           <div class="pull-right">
-                  <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                   <a href="https://github.com/Marques-Dev">Marques - Dev</a>
+          </div>
           </div>
           <div class="clearfix"></div>
         </footer>

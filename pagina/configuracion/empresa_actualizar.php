@@ -53,23 +53,23 @@ $target_dir = "images/";
 	//check if image file is a actual image or fake image
 	$check=getimagesize($_FILES["imagen"]["tmp_name"]);
 	if($check!==false) {
-		echo "archivo es una imagen - ". $check["mime"]. ".";
+		echo "o arquivo e uma imagem - ". $check["mime"]. ".";
 		$uploadok = 1;
 	}else{
-		echo "el archivo no es una imagen.";
+		echo "o arquivo noa e uma imgaem.";
 		$uploadok=0;
 	}
 	
 	
 	//check if file already exists
 	if(file_exists($target_file)){
-		echo "lo siento, el archivo ya existe.";
+		echo "O arquivo ja existe.";
 		$uploadok=0;
 	}
 	
 	//check file size
 	if($_FILES["imagen"]["size"]>500000){
-		echo "lo siento, tu archivo es demasiado grande.";
+		echo "O arquivo e muito grande";
 		$uploadok=0;
 	}
 	
@@ -83,13 +83,13 @@ $target_dir = "images/";
 
 	mysqli_query($con,"update empresa set empresa='$empresa',ruc='$ruc',direccion='$direccion',telefono='$telefono',descripcion='$descripcion',imagen='$img',correo='$correo',simbolo_moneda='$simbolo_moneda',tipo_moneda='$tipo_moneda' where id_empresa='$id_empresa'")or die(mysqli_error());
 
-	echo "<script type='text/javascript'>alert('empresa actualizado correctamente!');</script>";
+	echo "<script type='text/javascript'>alert('Dados atualizados corretamente!');</script>";
 
 	echo "<script>document.location='../configuracion/configuracion.php'</script>";	
 	//	header('Location:../usuario.php');	
 	
 		} else{
-			echo "No se pudo subir.";
+			echo "Impossivel subir.";
 		}
 
 }

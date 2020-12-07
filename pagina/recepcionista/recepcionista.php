@@ -58,7 +58,7 @@ ul {
                   <h3 class="box-title"> </h3>
 
                 </div><!-- /.box-header -->
-                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Impresión</a>
+                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Imprimir </a>
                 <a class="btn btn-warning btn-print" href="recepcionista_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">REGISTRAR</a>
 
 
@@ -115,14 +115,14 @@ ul {
 
                     <th>#</th>
                         <th>Foto</th>
-                        <th>Nombre y apellidos</th>
-                        <th>Telefono</th>
+                        <th>Nome e sobre nome</th>
+                        <th>telefone</th>
                         <th>Usuario</th>
     
-                             <th>Correo</th>
+                             <th>CEP</th>
      
 
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                       </tr>
                     </thead>
                     <tbody>
@@ -152,7 +152,7 @@ ul {
                       <a class="btn btn-danger btn-print" href="<?php  echo "editar_recepcionista.php?cid=$cid";?>"  role="button">Editar</a>
 
 
-  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_recepcionista.php?cid=$cid";?>" onClick="return confirm('¿Está seguro de que quieres eliminar usuario??');"><i class="glyphicon glyphicon-remove" ></i></a>
+  <a class="small-box-footer btn-print"  href="<?php  echo "eliminar_recepcionista.php?cid=$cid";?>" onClick="return confirm('Tem certeza que quer apagar?');"><i class="glyphicon glyphicon-remove" ></i></a>
     
 
              <?php
@@ -189,7 +189,7 @@ ul {
         <!-- footer content -->
        <footer>
           <div class="pull-right">
-                           <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                           <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>

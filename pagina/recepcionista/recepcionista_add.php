@@ -44,7 +44,7 @@ $target_dir = "../usuario/subir_us/";
 	$target_file = $target_dir.basename($_FILES["imagen"]["name"]);
 	$uploadok = 1;
 	$imagefiletype = pathinfo($target_file, PATHINFO_EXTENSION);
-	//check if image file is a actual image or fake image
+	//chekando se o arquivo e uma imagem ou nao
 	$check=getimagesize($_FILES["imagen"]["tmp_name"]);
 	if($check!==false) {
 		echo "archivo es una imagen - ". $check["mime"]. ".";
@@ -55,15 +55,15 @@ $target_dir = "../usuario/subir_us/";
 	}
 	
 	
-	//check if file already exists
+	//checando se o arquivo ja existe
 	if(file_exists($target_file)){
-		echo "lo siento, el archivo ya existe.";
+		echo "o arquivo ja existe";
 		$uploadok=0;
 	}
 	
 	//check file size
 	if($_FILES["imagen"]["size"]>500000){
-		echo "lo siento, tu archivo es demasiado grande.";
+		echo "o arquivo e muito grande";
 		$uploadok=0;
 	}
 	
@@ -73,11 +73,11 @@ $target_dir = "../usuario/subir_us/";
 			
 	$img=basename($_FILES["imagen"]["name"]);
 	
-//encriptando contraseña
+//encriptando a senha
 	$pass=md5($password);
 		$salt="a1Bz20ydqelm8m1wql";
 		$pass=$salt.$pass;
-		///finzalizo encriptacion
+		///finzalizo a emcriptação
 
 
 			mysqli_query($con,"INSERT INTO usuario(usuario,password,imagen,tipo,nombre,apellido,telefono,correo)

@@ -113,10 +113,10 @@ $id_paciente=$_SESSION['id'];
            <th>Paciente</th>
            <th>Medico</th>               
 
-    <th>Fecha</th>
+    <th>Data</th>
       <th>Total</th>
 
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                            
 
 
@@ -217,7 +217,7 @@ $id_pedido=$row['id_pedido'];
         <!-- footer content -->
          <footer>
           <div class="pull-right">
-                                    <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                                    <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>

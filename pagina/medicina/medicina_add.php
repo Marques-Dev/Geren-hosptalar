@@ -19,26 +19,26 @@ $target_dir = "subir_producto/";
 	$target_file = $target_dir.basename($_FILES["imagen"]["name"]);
 	$uploadok = 1;
 	$imagefiletype = pathinfo($target_file, PATHINFO_EXTENSION);
-	//check if image file is a actual image or fake image
+	//checando se relamente e uma imagem
 	$check=getimagesize($_FILES["imagen"]["tmp_name"]);
 	if($check!==false) {
-		echo "archivo es una imagen - ". $check["mime"]. ".";
+		echo "o arquivo e uma imagem - ". $check["mime"]. ".";
 		$uploadok = 1;
 	}else{
-		echo "el archivo no es una imagen.";
+		echo "o arquivo nao euma imagem.";
 		$uploadok=0;
 	}
 	
 	
 	//check if file already exists
 	if(file_exists($target_file)){
-		echo "lo siento, el archivo ya existe.";
+		echo "o aquivo ja existe.";
 		$uploadok=0;
 	}
 	
 	//check file size
 	if($_FILES["imagen"]["size"]>500000){
-		echo "lo siento, tu archivo es demasiado grande.";
+		echo "o arquivo e muito grnade";
 		$uploadok=0;
 	}
 	
@@ -61,7 +61,7 @@ $target_dir = "subir_producto/";
 	
 	
 		} else{
-			echo "No se pudo subir.";
+			echo "impossivel de subir.";
 		}
 
 

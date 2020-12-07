@@ -107,7 +107,7 @@ ul {
                    <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Nombre</label>
+                        <label for="date" >Nome</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -125,7 +125,7 @@ ul {
                           <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Apellido</label>
+                        <label for="date" >Sobre nome</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -161,7 +161,7 @@ ul {
  <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Contraseña</label>
+                        <label for="date" >Senha</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -178,7 +178,7 @@ ul {
  <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Repita contraseña</label>
+                        <label for="date" >Repita a senha</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -197,7 +197,7 @@ ul {
  <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Telefono</label>
+                        <label for="date" >Telefone</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -217,7 +217,7 @@ ul {
                      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Correo</label>
+                        <label for="date" >CEP</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -233,7 +233,7 @@ ul {
 
              
                  
-    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    <button type="submit" class="btn btn-primary">Salvar dados</button>
               
 
 
@@ -278,7 +278,7 @@ ul {
         <!-- footer content -->
        <footer>
           <div class="pull-right">
-                     <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                     <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>
@@ -295,8 +295,8 @@ ul {
                 $('#example2').dataTable( {
                  "language": {
                    "paginate": {
-                      "previous": "anterior",
-                      "next": "posterior"
+                      "previous": "Anterior",
+                      "next": "Proximo"
                     },
                     "search": "Buscar:",
 
