@@ -31,7 +31,7 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
                     <!-- Menu Toggle Button -->
                     <a href="log.php" class="dropdown-toggle">
                       <i class="glyphicon glyphicon-list-alt"></i>
-                      Historial de registro
+                      Historico
                     </a>
                   </li>
                   <!-- Notifications Menu -->
@@ -48,7 +48,7 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
                       </span>
                     </a>
                     <ul class="dropdown-menu">
-                      <li class="header">Tienes <?php echo$row['count'];?> productos que necesita rorder</li>
+                      <li class="header">Tienes <?php echo$row['count'];?> Produtos que necessitam reordenar </li>
                       <li>
                         <!-- Inner Menu: contains the notifications -->
                         <ul class="menu">
@@ -64,14 +64,14 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
                           <?php }?>
                         </ul>
                       </li>
-                      <li class="footer"><a href="inventory.php">Ver todo</a></li>
+                      <li class="footer"><a href="inventory.php">Ver tudo</a></li>
                     </ul>
                   </li>
                   <!-- Tasks Menu -->
 				   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <i class="glyphicon glyphicon-wrench"></i> Mantenimiento
+                      <i class="glyphicon glyphicon-wrench"></i> Mantimento
                       
                     </a>
                     <ul class="dropdown-menu">
@@ -90,7 +90,7 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
                           </li><!-- end notification -->
 						  <li><!-- start notification -->
                             <a href="product.php">
-                              <i class="glyphicon glyphicon-cutlery text-green"></i> Producto
+                              <i class="glyphicon glyphicon-cutlery text-green"></i> Produto
                             </a>
                           </li><!-- end notification -->
 						 
@@ -116,7 +116,7 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
 				   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="stockin.php">
-                      <i class="glyphicon glyphicon-list text-green"></i> Acciones de
+                      <i class="glyphicon glyphicon-list text-green"></i> Ações
 
                       
                     </a>
@@ -145,13 +145,13 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
                           </li><!-- end notification -->
 						  <li><!-- start notification -->
                             <a href="sales.php">
-                              <i class="glyphicon glyphicon-usd text-blue"></i>Ventas
+                              <i class="glyphicon glyphicon-usd text-blue"></i>Vendas
                             </a>
                           </li><!-- end notification -->
 					
 						  <li><!-- start notification -->
                             <a href="overall.php">
-                              <i class="glyphicon glyphicon-usd text-blue"></i>En general
+                              <i class="glyphicon glyphicon-usd text-blue"></i>Em Geral
 
                             </a>
                           </li><!-- end notification -->
@@ -170,7 +170,7 @@ $query=mysqli_query($con,"select * from branch where branch_id='$branch'")or die
                   <li class="">
                     <!-- Menu Toggle Button -->
                     <a href="logout.php" class="dropdown-toggle">
-                      <i class="glyphicon glyphicon-off text-red"></i> Cerrar sesión
+                      <i class="glyphicon glyphicon-off text-red"></i> Encerrar sessão
  
                       
                     </a>

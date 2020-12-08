@@ -1,4 +1,4 @@
 <?php 
-	echo "hospital tusulutionweb Sys";
+	echo "GEstão Hosptalar Marques";
 ?>
 

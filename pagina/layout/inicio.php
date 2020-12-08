@@ -91,22 +91,6 @@ if(isset($_POST['btn_temporada']))
                 </div><!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-     
-
-                           
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -169,13 +153,11 @@ echo $num;
             <?php echo ($num > 0) ? '<a href="../configuracion/configuracion.php" class="small-box-footer">Mais <i class="fa fa-arrow-circle-right"></i></a>' : '<a href="#" class="small-box-footer">-------</a>'; ?>
           </div>
         </div>
-
-        
-                                 <?php
+                       <?php
                       }
                       ?>
 
-         <?php
+                      <?php
                         if ($tipo=="administrador" or $tipo=="medico" or $tipo=="recepcionista") {
                     
                       ?>
@@ -284,35 +266,6 @@ echo $num;
           <?php
                       }
                       ?>
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-   
-
-        
-
-
-
-
-
-
-
-
-
-
 
 
                                <?php
@@ -557,7 +510,7 @@ echo $num;
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-                   <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                    <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>

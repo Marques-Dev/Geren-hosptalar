@@ -30,20 +30,20 @@ include('../dist/includes/dbcon.php');
                 
                     <a href="log.php" class="dropdown-toggle">
                       <i class="glyphicon glyphicon-list-alt"></i>
-                      Historial de registro
+                      Historico
                     </a>
                   </li>
                   <!-- Notifications Menu -->
                   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <i class="glyphicon glyphicon-refresh text-red"></i> Reordenar
+                      <i class="glyphicon glyphicon-refresh text-red"></i> Recomendar
                       <span class="label label-danger">
             	
                       </span>
                     </a>
                     <ul class="dropdown-menu">
-                      <li class="header">texto header aqui</li>
+                      <li class="header">Texto aqui</li>
                       <li>
                         <!-- Inner Menu: contains the notifications -->
                         <ul class="menu">
@@ -56,14 +56,14 @@ include('../dist/includes/dbcon.php');
                      
                         </ul>
                       </li>
-                      <li class="footer"><a href="inventory.php">Ver todo</a></li>
+                      <li class="footer"><a href="inventory.php">Ver tudo</a></li>
                     </ul>
                   </li>
                   <!-- Tasks Menu -->
 				   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <i class="glyphicon glyphicon-wrench"></i> Mantenimiento
+                      <i class="glyphicon glyphicon-wrench"></i> Mantimento
 
                       
                     </a>
@@ -88,7 +88,7 @@ include('../dist/includes/dbcon.php');
                           </li><!-- end notification -->
 						  <li><!-- start notification -->
                             <a href="product.php">
-                              <i class="glyphicon glyphicon-cutlery text-green"></i> Producto
+                              <i class="glyphicon glyphicon-cutlery text-green"></i> Produto
                             </a>
                           </li><!-- end notification -->
 						 
@@ -109,7 +109,7 @@ include('../dist/includes/dbcon.php');
 				   <li class="dropdown notifications-menu">
                     <!-- Menu toggle button -->
                     <a href="stockin.php">
-                      <i class="glyphicon glyphicon-list text-green"></i> Acciones de
+                      <i class="glyphicon glyphicon-list text-green"></i> Ações
 
                       
                     </a>
@@ -140,22 +140,22 @@ include('../dist/includes/dbcon.php');
                           </li><!-- end notification -->
 						            <li><!-- start notification -->
                          <a href="sales.php">
-                              <i class="glyphicon glyphicon-usd text-blue"></i>Ventas
+                              <i class="glyphicon glyphicon-usd text-blue"></i>Vendas
                             </a>
                           </li><!-- end notification -->
 					    <li><!-- start notification -->
                          <a href="receivables.php">
-                              <i class="glyphicon glyphicon-th-list text-redr"></i>Cuentas por cobrar
+                              <i class="glyphicon glyphicon-th-list text-redr"></i>Contas a cobrar
                             </a>
                           </li><!-- end notification -->
 						  <li><!-- start notification -->
                          <a href="income.php">
-                              <i class="glyphicon glyphicon-th-list text-redr"></i>Ingreso de sucursal
+                              <i class="glyphicon glyphicon-th-list text-redr"></i>Entrada de filiais
                             </a>
                           </li><!-- end notification -->
                           <li><!-- start notification -->
                          <a href="purchase_request.php">
-                              <i class="glyphicon glyphicon-usd text-blue"></i>Solicitud de compra
+                              <i class="glyphicon glyphicon-usd text-blue"></i>Solicitalçoes de compra
 
                             </a>
                           </li><!-- end notification -->
@@ -174,7 +174,7 @@ include('../dist/includes/dbcon.php');
                   <li class="">
                     <!-- Menu Toggle Button -->
                     <a href="logout.php" class="dropdown-toggle">
-                      <i class="glyphicon glyphicon-off text-red"></i> Cerrar sesion 
+                      <i class="glyphicon glyphicon-off text-red"></i> Encerrar sessão
                       
                     </a>
                   </li>

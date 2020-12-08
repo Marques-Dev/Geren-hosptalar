@@ -1,3 +1,3 @@
 <?php 
-	echo "Gestão hosptalar Marques";
+	echo "Gestão Hosptalar Marques";
 ?>

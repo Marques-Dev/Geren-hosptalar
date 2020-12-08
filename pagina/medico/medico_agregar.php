@@ -167,7 +167,7 @@ ul {
                     </div>
                        <div class="col-md-4 btn-print">
                       <div class="form-group">
-                          <input type="password" class="form-control pull-right" id="date" name="password" placeholder="password " required>
+                          <input type="password" class="form-control pull-right" id="date" name="password" placeholder="Password " required>
                       </div>
                     </div>
                            <div class="col-md-4 btn-print">
@@ -184,7 +184,7 @@ ul {
                     </div>
                        <div class="col-md-4 btn-print">
                       <div class="form-group">
-<input type="password" class="form-control pull-right" id="password2" name="password2" placeholder="password " required>
+<input type="password" class="form-control pull-right" id="password2" name="password2" placeholder="Password " required>
                       </div>
                     </div>
                            <div class="col-md-4 btn-print">
@@ -203,7 +203,7 @@ ul {
                     </div>
                        <div class="col-md-4 btn-print">
                       <div class="form-group">
-            <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono"  required>
+            <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefone"  required>
                       </div>
                     </div>
                            <div class="col-md-4 btn-print">
@@ -223,7 +223,7 @@ ul {
                     </div>
                        <div class="col-md-4 btn-print">
                       <div class="form-group">
-            <input type="text" class="form-control" id="correo" name="correo" placeholder="correo"  required>
+            <input type="text" class="form-control" id="correo" name="correo" placeholder="CEP"  required>
                       </div>
                     </div>
                            <div class="col-md-4 btn-print">

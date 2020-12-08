@@ -7,7 +7,7 @@
   <input type="password" name="password" required><br>
   <select name="type" required>
     <option>admin</option>
-    <option>trabajador de la salud</option>
+    <option>trabalhador de saúde</option>
   </select><br>	
   <input type="file" name="image"><br>
   <input type="submit" name="add" value="Save">

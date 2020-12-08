@@ -17,7 +17,7 @@ include 'dbcon.php';
 	include('../../dist/includes/dbcon.php');
 	$date = date("Y-m-d H:i:s");
 	$id=$_SESSION['id'];
-	$remarks="se ha desconectado el sistema en ";  
+	$remarks="Desconectando do sistema em: ";  
 	mysqli_query($con,"INSERT INTO history_log(user_id,action,date) VALUES('$id','$remarks','$date')")or die(mysqli_error($con));
 	
 	session_destroy();

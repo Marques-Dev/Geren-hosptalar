@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>hospital sistemasenoferta Sys</title>
+    <title>Gestão Hosptalar Marques</title>
 
     <!-- Bootstrap -->
     <link href="../layout/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">

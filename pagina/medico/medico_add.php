@@ -44,26 +44,26 @@ $target_dir = "../usuario/subir_us/";
 	$target_file = $target_dir.basename($_FILES["imagen"]["name"]);
 	$uploadok = 1;
 	$imagefiletype = pathinfo($target_file, PATHINFO_EXTENSION);
-	//check if image file is a actual image or fake image
+	//Checando se o arquivo realemnte e uma imagem
 	$check=getimagesize($_FILES["imagen"]["tmp_name"]);
 	if($check!==false) {
 		echo "archivo es una imagen - ". $check["mime"]. ".";
 		$uploadok = 1;
 	}else{
-		echo "el archivo no es una imagen.";
+		echo "O arquivo nao e uma imagem";
 		$uploadok=0;
 	}
 	
 	
-	//check if file already exists
+	//Checando se o arquivo ja existe
 	if(file_exists($target_file)){
-		echo "lo siento, el archivo ya existe.";
+		echo "O arquivo já existe.";
 		$uploadok=0;
 	}
 	
-	//check file size
+	//checando o tamanho do arquivo
 	if($_FILES["imagen"]["size"]>500000){
-		echo "lo siento, tu archivo es demasiado grande.";
+		echo "O arquivo e muito grande";
 		$uploadok=0;
 	}
 	
@@ -73,12 +73,11 @@ $target_dir = "../usuario/subir_us/";
 			
 	$img=basename($_FILES["imagen"]["name"]);
 	
-//encriptando contraseña
+//Encriptação
 	$pass=md5($password);
 		$salt="a1Bz20ydqelm8m1wql";
 		$pass=$salt.$pass;
-		///finzalizo encriptacion
-
+		///Finalizando 
 
 			mysqli_query($con,"INSERT INTO usuario(usuario,password,imagen,tipo,nombre,apellido,telefono,correo)
 				VALUES('$usuario','$pass','$img','$tipo','$nombre','$apellido','$telefono','$correo')")or die(mysqli_error($con));
@@ -90,7 +89,7 @@ $target_dir = "../usuario/subir_us/";
 	
 	
 		} else{
-			echo "No se pudo subir.";
+			echo "Impossivel subir.";
 		}
 
 

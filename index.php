@@ -5,7 +5,7 @@
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <title>Login - <?php include('dist/includes/title.php');?></title>
+        <title>Login - <?php include('dist/includes/title.php');?></title>
     <!-- responsividade  -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -25,7 +25,7 @@
     />
     <!-- /meta tags -->
     <!-- custom style sheet -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <!-- /custom style sheet -->
     <!-- fontawesome css -->
     <link href="css/fontawesome-all.css" rel="stylesheet" />
