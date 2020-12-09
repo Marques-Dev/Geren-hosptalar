@@ -94,7 +94,7 @@ ul {
                   <h3 class="box-title"> MODIFICAR RECEPCIONISTA</h3>
                 </div><!-- /.box-header -->
               
-              <a class="btn btn-warning btn-print" href="recepcionista.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+              <a class="btn btn-warning btn-print" href="recepcionista.php"    style="height:25%; width:15%; font-size: 12px " role="button">Voltar</a>
 
                 <div class="box-body">
                 
@@ -120,7 +120,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >IMAGEN ANTIGUA</label>
+                        <label for="date" >IMAGEN ANTIGA</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -137,7 +137,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >IMAGEN NUEVA</label>
+                        <label for="date" >IMAGEN NOVA</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -154,7 +154,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Nombre</label>
+                        <label for="date" >NOME</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -173,7 +173,7 @@ ul {
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Apellido</label>
+                        <label for="date" >Sobre nome</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -214,7 +214,7 @@ ul {
                <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Telefono</label>
+                        <label for="date" >Telefone</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -236,7 +236,7 @@ ul {
        <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Correo</label>
+                        <label for="date" >CEP</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -270,7 +270,7 @@ ul {
      
                 
           
-    <button type="submit" class="btn btn-primary">GUARDAR</button>          
+    <button type="submit" class="btn btn-primary">SALVAR</button>          
   
                    
             <br><br><br><hr>
@@ -305,7 +305,7 @@ ul {
         <!-- footer content -->
        <footer>
           <div class="pull-right">
-                                   <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                                   
           </div>
           <div class="clearfix"></div>
         </footer>

@@ -30,23 +30,23 @@ $target_dir = "../usuario/subir_us/";
 	//check if image file is a actual image or fake image
 	$check=getimagesize($_FILES["imagen"]["tmp_name"]);
 	if($check!==false) {
-		echo "archivo es una imagen - ". $check["mime"]. ".";
+		echo "o aquivo e uma imagem - ". $check["mime"]. ".";
 		$uploadok = 1;
 	}else{
-		echo "el archivo no es una imagen.";
+		echo "o arquivo nao e uma imagem";
 		$uploadok=0;
 	}
 	
 	
 	//check if file already exists
 	if(file_exists($target_file)){
-		echo "lo siento, el archivo ya existe.";
+		echo "O arquivo já existe.";
 		$uploadok=0;
 	}
 	
 	//check file size
 	if($_FILES["imagen"]["size"]>500000){
-		echo "lo siento, tu archivo es demasiado grande.";
+		echo "O arquivo e muito grande.";
 		$uploadok=0;
 	}
 	

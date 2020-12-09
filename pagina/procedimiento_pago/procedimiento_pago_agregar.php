@@ -55,10 +55,10 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> REGISTRAR PROCESAMIENTO DE PAGO </h3>
+                  <h3 class="box-title"> REGISTRAR PROCESAMIENTO DE PAGAMENTO</h3>
 
                 </div><!-- /.box-header -->
-                <a class="btn btn-warning btn-print" href="procedimiento_pago.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+                <a class="btn btn-warning btn-print" href="procedimiento_pago.php"    style="height:25%; width:15%; font-size: 12px " role="button">Volar</a>
                 
 
 
@@ -92,7 +92,7 @@ ul {
                    <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Nombre</label>
+                        <label for="date" >Nome</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -110,7 +110,7 @@ ul {
                           <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Descripcion</label>
+                        <label for="date" >Descrição</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -132,7 +132,7 @@ ul {
            <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Precio venta</label>
+                        <label for="date" >Preço de venda</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -150,7 +150,7 @@ ul {
 
 
                  
-    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    <button type="submit" class="btn btn-primary">Slavar dados</button>
 
 
               <div class="modal-footer">
@@ -186,7 +186,7 @@ ul {
         <!-- footer content -->
     <footer>
           <div class="pull-right">
-                  <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                  
           </div>
           <div class="clearfix"></div>
         </footer>

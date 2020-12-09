@@ -73,11 +73,11 @@ $target_dir = "../usuario/subir_us/";
 			
 	$img=basename($_FILES["imagen"]["name"]);
 	
-//encriptando contraseña
+//encriptando a senha
 	$pass=md5($password);
 		$salt="a1Bz20ydqelm8m1wql";
 		$pass=$salt.$pass;
-		///finzalizo encriptacion
+		///finzalizo encripitação
 
 
 			mysqli_query($con,"INSERT INTO usuario(usuario,password,imagen,tipo,nombre,apellido,telefono,correo)

@@ -159,7 +159,7 @@ $id_escenario_caso=$row['id_escenario_caso'];
            <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Ubicacion</label>
+                        <label for="date" >...</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -241,7 +241,7 @@ $id_escenario_caso=$row['id_escenario_caso'];
               <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Escenario caso</label>
+                        <label for="date" > caso</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -264,7 +264,7 @@ $id_escenario_caso=$row['id_escenario_caso'];
      <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Descripcion</label>
+                        <label for="date" >Descrição</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -290,7 +290,7 @@ $id_escenario_caso=$row['id_escenario_caso'];
                <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >fecha audiencia</label>
+                        <label for="date" >Fechar</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -346,7 +346,7 @@ $id_escenario_caso=$row['id_escenario_caso'];
      
                 
           
-    <button type="submit" class="btn btn-primary">GUARDAR</button>          
+    <button type="submit" class="btn btn-primary">Salvar</button>          
   
                    
             <br><br><br><hr>
@@ -502,7 +502,7 @@ $id_audiencia=$row['id_audiencia'];
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-                  <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                
           </div>
           <div class="clearfix"></div>
         </footer>

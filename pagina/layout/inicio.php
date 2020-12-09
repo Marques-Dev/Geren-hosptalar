@@ -291,7 +291,7 @@ echo $num;
       </h4>
               <p> Prescrições </p>
             </div>
-            <div class="icon"><img height="80" width="80" src="img/tareas.png">
+            <div class="icon"><img height="80" width="80" src="img/documentos.png">
               <i class=""></i>
             </div>
             <?php echo ($num > 0) ? '<a href="../preescripcion/preescripcion.php" class="small-box-footer">Mais <i class="fa fa-arrow-circle-right"></i></a>' : '<a href="#" class="small-box-footer">-------</a>'; ?>
@@ -379,7 +379,7 @@ echo $num;
       </h4>
               <p>Pagamentos</p>
             </div>
-            <div class="icon"><img height="80" width="80" src="img/ass.png">
+            <div class="icon"><img height="80" width="80" src="img/tareas.png">
               <i class=""></i>
             </div>
             <?php echo ($num > 0) ? '<a href="../farmacia/pagos.php" class="small-box-footer">Mais <i class="fa fa-arrow-circle-right"></i></a>' : '<a href="#" class="small-box-footer">-------</a>'; ?>

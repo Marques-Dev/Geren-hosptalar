@@ -91,10 +91,10 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> AGREGAR HISTORIAL</h3>
+                  <h3 class="box-title"> Adicionar historico </h3>
                 </div><!-- /.box-header -->
               
-              <a class="btn btn-warning btn-print" href="paciente.php"    style="height:25%; width:15%; font-size: 12px " role="button">Regresar</a>
+              <a class="btn btn-warning btn-print" href="paciente.php"    style="height:25%; width:15%; font-size: 12px " role="button">Voltar</a>
                       <form class="form-horizontal" method="post" action="historial_paciente_add.php" enctype='multipart/form-data'>
             <input type="hidden" class="form-control" id="id_paciente" name="id_paciente" value="<?php echo $cid;?>" required>
     
@@ -156,7 +156,7 @@ ul {
                       <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Obsercaciones</label>
+                        <label for="date" >Observações</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -177,7 +177,7 @@ ul {
                                <div class="row">
                     <div class="col-md-3 btn-print">
                       <div class="form-group">
-                        <label for="date" >Fecha cita</label>
+                        <label for="date" >Data da Receita</label>
                  
                       </div><!-- /.form group -->
                     </div>
@@ -226,7 +226,7 @@ ul {
 
                 
           
-    <button type="submit" class="btn btn-primary">GUARDAR</button>          
+    <button type="submit" class="btn btn-primary">SALVAR</button>          
   
                    
             <br><br><br><hr>
@@ -252,10 +252,10 @@ ul {
          
                            
 
-    <th>Fecha</th>
-      <th>Observaciones</th>
+    <th>Data</th>
+      <th>Observações</th>
            <th>Estado</th>
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                            
 
 
@@ -302,7 +302,7 @@ $id_cita=$row['id_cita'];
                       ?>
 
 <a class="btn btn-danger btn-print" href="<?php  echo "../paciente/editar_cita.php?id_cita=$id_cita";?>"    role="button">Editar</a>
-<a class="btn btn-primary btn-print" href="<?php  echo "../paciente/eliminar_cita.php?id_cita=$id_cita";?>"  onClick="return confirm('¿Está seguro de que quieres eliminar??');"  role="button">Eliminar</a>
+<a class="btn btn-primary btn-print" href="<?php  echo "../paciente/eliminar_cita.php?id_cita=$id_cita";?>"  onClick="return confirm('Tem certeza que deseja apagar?');"  role="button">Apagar</a>
       <?php
                       
                       ?>
@@ -346,7 +346,7 @@ $id_cita=$row['id_cita'];
         <!-- footer content -->
          <footer>
           <div class="pull-right">
-                      <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                      
           </div>
           <div class="clearfix"></div>
         </footer>

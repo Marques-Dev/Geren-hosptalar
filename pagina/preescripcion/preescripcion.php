@@ -58,8 +58,8 @@ ul {
                   <h3 class="box-title"> </h3>
 
                 </div><!-- /.box-header -->
-                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Impresión</a>
-                <a class="btn btn-warning btn-print" href="preescripcion_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">REGISTRAR PREESCRIPCION</a>
+                 <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Imprimir </a>
+                <a class="btn btn-warning btn-print" href="preescripcion_agregar.php"    style="height:25%; width:15%; font-size: 12px " role="button">ADICIONAR</a>
 
 
                 
@@ -102,7 +102,7 @@ ul {
 
 
                   <div class="box-header">
-                  <h3 class="box-title"> LISTA PREESCRIOCION</h3>
+                  <h3 class="box-title"> LISTA DE PRESCRIÇÕES </h3>
                 </div><!-- /.box-header -->
               
 
@@ -124,7 +124,7 @@ ul {
     <th>Fecha</th>
       <th>Historia</th>
  
- <th class="btn-print"> Accion </th>
+ <th class="btn-print"> Ação </th>
                       </tr>
                     </thead>
                     <tbody>
@@ -208,7 +208,7 @@ $id_preescripcion=$row['id_preescripcion'];
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-                      <a href="https://ventadecodigofuente.com/">hospital tusulutionweb Sys</a>
+                       <a href="https://github.com/Marques-Dev">Marques - Dev</a>
           </div>
           <div class="clearfix"></div>
         </footer>

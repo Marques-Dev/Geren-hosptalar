@@ -210,7 +210,7 @@ $id_pedido=$row['id_pedido'];
                       ?>
 
 <a class="btn btn-danger btn-print" href="<?php  echo "../boletas_ventas/generar_boleta.php?id_pedido=$id_pedido";?>"  target="_blank"  role="button">Fatura</a>
-<a class="btn btn-primary btn-print" href="<?php  echo "../paciente/eliminar_cita.php?id_cita=$cid";?>"  onClick="return confirm('¿Está seguro de que quieres eliminar??');"  role="button">Deletar</a>
+<a class="btn btn-primary btn-print" href="<?php  echo "../paciente/eliminar_cita.php?id_cita=$cid";?>"  onClick="return confirm('Tem certeza que deseja apagar?');"  role="button">Deletar</a>
       <?php
                       
                       ?>
