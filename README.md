@@ -9,5 +9,3 @@ Sistema em PHP, para gerenciamento de hosptais.
 3: login é: admin e admin
 
 ps: Esse projeto foi desenvolvido baseado em um curso do YouTube!
-
-
